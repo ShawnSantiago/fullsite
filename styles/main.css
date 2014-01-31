@@ -14,7 +14,53 @@ body {
 	margin: 0 auto;
 	background-color: rgba(255,255,255,0.8);
 	padding: 25px;
+
 }
+
+header {
+	padding-bottom: 25px;
+	float: left;
+	width: 100%;
+}
+
+header h1 {
+	float: left;
+}
+
+header nav {
+	float: right;
+}
+
+header nav ul li {
+	display: inline;
+	margin: 0px 10px;
+}
+
+.left {
+	float: left;
+	margin-right: 10px;
+}
+
+.right {
+	float: right;
+	margin-left: 10px;
+}
+
+footer {
+	clear: both;
+	width: 100%;
+}
+
+section {
+	width: 65%;
+	float: left; 
+}
+
+aside {
+	width: 35%;
+	float: right;
+}
+
 
 
 
